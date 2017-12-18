@@ -1,0 +1,51 @@
+body, html {
+	margin: 0;
+	background-color: #232323;
+	height: 100%;
+	width: 100%;
+	padding: 5px;
+}
+
+#content-area {
+	background-color: #567dd1;
+	border: 5px solid #EFEFEF;
+	padding: 20px;
+	color: rgb(26, 22, 46);
+}
+
+#title-area {
+	border: 0px;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #EFEFEF;
+}
+
+#subtitle {
+	color: #BABABA;
+}
+
+#totalValueLabel {
+	font-size: 1.5em;
+	color: #EFEFEF;
+}
+
+label {
+	color: rgb(26, 22, 46);
+}
+
+#ratingSelect {
+	color: #ebc700;
+}
+
+#calcButton {
+	border: 2px solid #EFEFEF;
+	padding: 10px;
+	color: #EFEFEF;
+}
+
+#totalValue {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #EFEFEF;
+}
