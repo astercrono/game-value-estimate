@@ -3,7 +3,7 @@ body, html {
 	background-color: #232323;
 	height: 100%;
 	width: 100%;
-	padding: 5px;
+	padding: 15px;
 }
 
 #content-area {
@@ -11,6 +11,9 @@ body, html {
 	border: 5px solid #EFEFEF;
 	padding: 20px;
 	color: rgb(26, 22, 46);
+	max-width: 500px;
+	min-width: 200px;
+	margin: 0 auto;
 }
 
 #title-area {
@@ -26,7 +29,6 @@ body, html {
 }
 
 #totalValueLabel {
-	font-size: 1.5em;
 	color: #EFEFEF;
 }
 
@@ -45,7 +47,6 @@ label {
 }
 
 #totalValue {
-	font-size: 1.5em;
 	font-weight: bold;
 	color: #EFEFEF;
 }
