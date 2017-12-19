@@ -9,7 +9,7 @@ body, html {
 
 #content-area {
 	background-color: #567dd1;
-	border: 5px solid #EFEFEF;
+	border: 3px solid #EFEFEF;
 	padding: 20px;
 	color: rgb(26, 22, 46);
 	max-width: 500px;
@@ -32,10 +32,12 @@ body, html {
 
 #totalValueLabel {
 	color: #EFEFEF;
+	font-weight: bold;
 }
 
 label {
-	color: rgb(26, 22, 46);
+	/*color: rgb(26, 22, 46);*/
+	color: rgb(27, 17, 75);
 }
 
 #ratingSelect {
@@ -43,7 +45,7 @@ label {
 }
 
 #calcButton {
-	border: 2px solid #EFEFEF;
+	border: 1px solid rgb(212, 212, 212);
 	padding: 10px;
 	color: #EFEFEF;
 }
@@ -51,4 +53,5 @@ label {
 #totalValue {
 	font-weight: bold;
 	color: #EFEFEF;
+	color: #ebc700;
 }
