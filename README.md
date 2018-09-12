@@ -1,9 +1,11 @@
 # Game Value Estimate
 
-A simple web page that estimates how many dollars you put into a game. The goal is to determine whether a game was worth the price that you paid for it. 
+Estimate how much money was actually put into a game based on playtime, category, and how enjoyable it was.
 
-In addition to the number of hours that you put into a game, there are two other factors that are taken into consideration:
- - Category: Different genres have a different value per hour. For example, single player games that are primarily story driven are typically shorter games, yet are still valued quite high. On the other hand, MMO-type games are specifically built to have a huge number of hours dumped into them.
- - Rating: Sometimes, even though a game was short, you enjoyed it enough that you still feel like it was a justified purchase.
+There are three factors used to calculate a game's value.
 
-The metrics most certainly could use some adjustment. The calculation is not meant to be a definitive answer, but rather be a helpful tool in the question of whether a game was indeed worth the price you paid for it.
+ - **Category**: Different genres have a different value per hour. For example, single player games that are primarily story driven are typically shorter games, yet are still valued quite high. On the other hand, MMO-type games are specifically built to have a huge number of hours dumped into them.
+ - **Rating**: Scale the dollars/hour of a game based on how well it was liked. A well liked game deserves some extra value, while a disliked game loses value.
+ - **Hours**: Simply how many hours were spent playing the game. This is multipled by the scaled dollars/per that is detemrined by category and rating.
+
+These metrtics are not meant to be accurate and provide definitive answers, rather they are just intended to be a helpful tool in the question of whether a game was indeed worth the price that was paid for it.
