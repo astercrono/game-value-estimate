@@ -9,3 +9,5 @@ There are three factors used to calculate a game's value.
  - **Hours**: Simply how many hours were spent playing the game. This is multipled by the scaled dollars/per that is detemrined by category and rating.
 
 These metrtics are not meant to be accurate and provide definitive answers, rather they are just intended to be a helpful tool in the question of whether a game was indeed worth the price that was paid for it.
+
+![Screenshot](screenshot.png)
