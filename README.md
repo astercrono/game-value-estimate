@@ -10,4 +10,6 @@ There are three factors used to calculate a game's value.
 
 These metrtics are not meant to be accurate and provide definitive answers, rather they are just intended to be a helpful tool in the question of whether a game was indeed worth the price that was paid for it.
 
-![Screenshot](screenshot.png)
+**Preview**
+
+<img src='screenshot.png' width="320" alt="" />
